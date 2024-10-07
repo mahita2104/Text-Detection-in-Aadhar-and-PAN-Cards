@@ -37,14 +37,17 @@ Take a detailed look at the model's results , the detected objects and their bou
 
 The model successfully detected and localised the objects of interest in both Aadhaar Card and PAN cards.Each detection has been annotated directly on the image, displaying the object's label and confidence score, as shown in the provided examples.
 
+## Applications
+- **Simplied ID Verfication:** This model can assist in making everyday processes like verifying Aadhaar and PAN cards quicker and easier. Whether opening a bank account, getting a new SIM card, or accessing government services, the technology can help ensure smooth and accurate identity verification.
+- **Effortless Data Entry:** Imagine reducing the manual effort involved in filling out forms or databases. By automatically extracting information from ID cards, the system can help individuals and businesses save time, making tedious data entry a thing of the past.
+- **Fraud Detection** In today’s world, verifying the authenticity of documents is critical. This model can play a key role in identifying fake or altered IDs, providing an extra layer of security and helping to build trust in sensitive transactions.
+- **Faster, More Efficient Service:** From airports to service counters, quick and reliable processing of ID documents can enhance customer experiences. By integrating real-time document detection, we can make these interactions faster and less stressful for both staff and users.
 ## Future Scope
 
 - **Enhanced Accuracy:** Further refinement of the model to improve precision and recall.
 - **Support for More Documents:** Extending detection capabilities to include additional types of identification documents.
 - **OCR Integration:** Implementing Optical Character Recognition (OCR) to extract and process detected text fields for automated data entry and analysis.
 - **Fake ID Detection:** Developing methods to use the detection system for identifying and verifying the authenticity of ID cards, potentially flagging counterfeit or forged documents.
-- **Real-Time Processing:** Development of real-time detection capabilities for practical applications.
-- **Integration:** Potential integration into document verification and management systems.
 
 ## Acknowledgements
 
