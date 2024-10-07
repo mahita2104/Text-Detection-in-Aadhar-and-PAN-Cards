@@ -20,16 +20,22 @@ In Aadhaar cards, the detected fields include:
 - QR Code
 - Photograph
 
-The system uses a dataset from Kaggle, with annotations performed using VoTT (Visual Object Tagging Tool) to ensure accurate detection and classification of these text fields.
+The system uses a dataset from Kaggle [GovtID Dataset](https://www.kaggle.com/datasets/sparsh2002/govtiddataset), with annotations performed using VoTT (Visual Object Tagging Tool) to ensure accurate detection and classification of these text fields.
 
 ## Results
+Take a detailed look at the model's results , the detected objects and their bounding boxes are represented below :
 
-The YOLOv3 model demonstrates effective detection of text fields, achieving the following performance metrics:
-- **Accuracy:** 93% on the validation set
-- **Precision:** 91% for text field detection
-- **Recall:** 94% for identifying text fields
+- Aadhar Card
+<p align="center">
+  <img src="https://github.com/mahita2104/Text-Detection-in-Aadhar-and-PAN-Cards/blob/main/Results/aadhar_card_test_result.png" />
+</p>
 
-Sample detection results include accurate identification and localization of text fields such as names, IDs, and other critical information in Aadhaar and PAN cards. For visual examples, see the sample images in the `results/` directory.
+- Pan Card
+<p align="center">
+  <img src="https://github.com/mahita2104/Text-Detection-in-Aadhar-and-PAN-Cards/blob/main/Results/pan_card_test_result.png" />
+</p>
+
+The model successfully detected and localised the objects of interest in both Aadhaar Card and PAN cards.Each detection has been annotated directly on the image, displaying the object's label and confidence score, as shown in the provided examples.
 
 ## Future Scope
 
